@@ -64,12 +64,11 @@ form {
     text-align: center;
 }
 
-
 .popup-inscri h3 {
     font-size: 2.5rem;
     display: inline-block;
     border-bottom: solid 2px black;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 0;
     text-align: left;
     width: 480px;
@@ -81,7 +80,8 @@ form {
     margin-right: auto;
     width: 95%;
     text-align: left;
-color: black;
+    margin-bottom: 7px;
+    color: black;
 }
 
 .annotation {
@@ -122,15 +122,73 @@ color: black;
     font-size: 0.7rem;
 }
 
-.submit {
+.popup-inscri .radio *,
+.popup-inscri .news *{
+    display: inline-block;
+    width: auto;
+    margin-left: 30px;
+    float: left;
+    padding: 0;
+    
+}
+
+.popup-inscri .radio *:nth-of-type(odd) {
+    margin-left: 2.5%;
+    margin-right: 5%;
+}
+
+.popup-inscri .bd,
+.popup-inscri .bd label {
+    clear: both;
+}
+
+.popup-inscri .bd input,
+.popup-inscri .bd p {
+    display: inline-block;
+    width: 20px;
+    margin: auto 2.5%;
+    padding: 4px;
+    float: left;
+    text-align: center;
+}
+
+.popup-inscri .bd p {
+    width: auto;
+    margin: auto 1%;
+    padding: 0;
+    padding-top: 7px;
+}
+
+.popup-inscri .bd input:nth-of-type(3) {
+    width: 35px;
+}
+
+.popup-inscri .bd::-webkit-input-placeholder {
+    text-align: center;
+}
+
+.popup-inscri .news * {
+margin: 0;
+        margin-left: 13px;
+}
+
+.g-recaptcha {
+    padding: 9px;
+}
+
+.popup-inscri  .submit, .popup-inscri  .reset {
     background-color: #ff7302;
     border: none;
     color: #fee;
-    font-size: 1.5rem;
-    height: 45px;
-    line-height: 20px;
-    width: 110px;
-    border-radius: 5% 5%;
-    position: absolute;
-    right: 4%;
+    font-size: 2rem;
+    height: auto;
+    width: auto;
+    margin-top: 50px;
+    border-radius: 3px;
 }
+
+.popup-inscri  .reset {
+margin: 0;
+        font-size: 1rem;
+background-color: firebrick;
+margin-bottom: 20px;}
