@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Inscription</title>
     <link rel="stylesheet" href="../css/inscription.css">
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 <body>
@@ -14,15 +15,15 @@
         <form action="#" method="POST">
             <h3>Informations du compte</h3>
             <p>
-                <label for="pseudo">Votre pseudo</label>
-                <input type="text" id="pseudo" name="pseudo" placeholder="Pseudo [obligatoire]">
-                <label for="mail">Votre adresse email</label>
-                <input type="text" id="mail" name="mail" placeholder="Adresse email [obligatoire]">
-                <label for="cmail">Confirmation adresse email</label>
+                <label for="pseudo">Votre pseudo :</label>
+                <input type="text" id="pseudo" name="pseudo" placeholder="Votre pseudo [obligatoire]">
+                <label for="mail">Votre adresse email :</label>
+                <input type="text" id="mail" name="mail" placeholder="Votre adresse email [obligatoire]">
+                <label for="cmail">Confirmation adresse email :</label>
                 <input type="text" id="cmail" name="cmail" placeholder="Confirmation Adresse email [obligatoire]">
-                <label for="mdp">Votre mot de passe</label>
-                <input type="password" id="mdp" name="mdp" placeholder="Mot de Passe [obligatoire]">
-                <label for="cmdp">Confirmation mot de passe</label>
+                <label for="mdp">Votre mot de passe :</label>
+                <input type="password" id="mdp" name="mdp" placeholder="Votre mot de Passe [obligatoire]">
+                <label for="cmdp">Confirmation mot de passe :</label>
                 <input type="password" id="cmdp" name="cmdp" placeholder="Confirmation Mot de Passe [obligatoire]">
             </p>
             <div class="hebergement">
@@ -37,6 +38,40 @@
                 </p>
             </div>
             <h3>Détails personnels</h3>
+            <p>
+                <label for="nom">Votre nom :</label>
+                <input type="text" id="nom" name="nom" placeholder="Votre nom">
+                <label for="prenom">Votre prénom :</label>
+                <input type="text" id="prenom" name="prenom" placeholder="Votre prénom">
+
+            </p>
+            <p class="radio">
+                <label>Votre genre :</label>
+                <label for="homme">Homme</label>
+                <input type="radio" name="radio" value="homme" checked>
+                <label for="femme">Femme</label>
+                <input type="radio" name="radio" value="femme">
+            </p>
+            <div class="bd">
+                <label>Votre date d'anniversaire :</label>
+                <input type="text" id="bd1" name="bd1" placeholder="JJ">
+                <p>/</p>
+                <input type="text" id="bd2" name="bd2" placeholder="MM">
+                <p>/</p>
+                <input type="text" id="bd3" name="bd3" placeholder="AAAA">
+            </div>
+            
+            <h3>Options du compte</h3>
+            <p class="news">
+                <label for="newsletter">Newsletter :</label>
+                <input type="checkbox" id="newsletter" name="newsletter" value="on">
+            </p>
+            <h3>Vérification</h3>
+            <div class="g-recaptcha" data-sitekey="6LdTnxMTAAAAAER7A4FQzYcBPyi4Oa0bra54usjg"></div>
+            
+            <INPUT type="submit" name="submit" class="submit" value=" Inscription ">
+            <br>
+            <INPUT type="reset" name="reset" class="reset" value=" Reinitialiser les champs ">
         </form>
     </div>
 
