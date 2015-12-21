@@ -14,16 +14,29 @@
         <form action="#" method="POST">
             <h3>Informations du compte</h3>
             <p>
-                <input type="text" id="nom" name="nom" placeholder="Pseudo [obligatoire]">
-                <input type="text" id="nom" name="mail" placeholder="Adresse email [obligatoire]">
-                <input type="text" id="nom" name="cmail" placeholder="Confirmation Adresse email [obligatoire]">
-                <input type="password" id="nom" name="mdp" placeholder="Mot de Passe [obligatoire]">
-                <input type="password" id="nom" name="cmdp" placeholder="Confirmation Mot de Passe [obligatoire]">
+                <label for="pseudo">Votre pseudo</label>
+                <input type="text" id="pseudo" name="pseudo" placeholder="Pseudo [obligatoire]">
+                <label for="mail">Votre adresse email</label>
+                <input type="text" id="mail" name="mail" placeholder="Adresse email [obligatoire]">
+                <label for="cmail">Confirmation adresse email</label>
+                <input type="text" id="cmail" name="cmail" placeholder="Confirmation Adresse email [obligatoire]">
+                <label for="mdp">Votre mot de passe</label>
+                <input type="password" id="mdp" name="mdp" placeholder="Mot de Passe [obligatoire]">
+                <label for="cmdp">Confirmation mot de passe</label>
+                <input type="password" id="cmdp" name="cmdp" placeholder="Confirmation Mot de Passe [obligatoire]">
             </p>
-            <p>
-
-            </p>
-
+            <div class="hebergement">
+                <p class="annotation">
+                    URL de votre image
+                </p>
+                <p class="annotation">OU</p>
+                <p class="annotation">Héberger votre image </p>
+                <p>
+                    <input type="text">
+                    <input type="file" value="Votre fichier">
+                </p>
+            </div>
+            <h3>Détails personnels</h3>
         </form>
     </div>
 
