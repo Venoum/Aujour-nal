@@ -19,6 +19,7 @@ form {
     width: 500px;
     margin: 100px auto;
     background-color: white;
+    border-radius: 5px;
 }
 
 .popup-inscri .head {
@@ -26,6 +27,12 @@ form {
     background-color: #ff7302;
     height: 65px;
     position: relative;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .popup-inscri .head * {
@@ -45,8 +52,8 @@ form {
 }
 
 .popup-inscri .head img:nth-of-type(2) {
-    position: relative;
-    left: 30px;
+    position: absolute;
+    right: 0;
     top: -80px;
     height: 130px;
 }
@@ -57,18 +64,38 @@ form {
     text-align: center;
 }
 
-.popup-inscri {
-    width: 500px;
-    margin: 100px auto;
-    background-color: white;
-}
 
 .popup-inscri h3 {
     font-size: 2.5rem;
     display: inline-block;
     border-bottom: solid 2px black;
-    margin-top: 0;
+    margin-top: 20px;
     margin-bottom: 0;
+    text-align: left;
+    width: 480px;
+}
+
+.popup-inscri label {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    text-align: left;
+color: black;
+}
+
+.annotation {
+    display: inline-block;
+    width: 35%;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.annotation:nth-of-type(2) {
+    margin: 0;
+    padding: 0;
+    width: 5%;
+    color: #ff7302;
 }
 
 .popup-inscri input {
@@ -77,6 +104,17 @@ form {
     margin-bottom: 20px;
     height: 25px;
     border: 1px solid #b4adad;
+}
+
+.hebergement input {
+    width: 37%;
+    margin-left: 5%;
+    float: left;
+}
+
+.hebergement input:nth-of-type(2) {
+    margin-right: 5%;
+    float: right;
 }
 
 ::-webkit-input-placeholder {
@@ -95,10 +133,4 @@ form {
     border-radius: 5% 5%;
     position: absolute;
     right: 4%;
-}
-
-label {
-    position: absolute;
-    clip: rect(1px, 1px, 1px, 1px);
-    /* to hide labels */
 }
