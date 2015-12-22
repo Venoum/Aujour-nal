@@ -1,0 +1,98 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-family: Amble, "Myriad pro";
+	font-weight: lighter;
+}
+
+.background {
+	position: relative;
+	background-image: url(../img/footer/back_img.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-top: 8%;
+	z-index: 3;
+}
+
+/*Reséaux sociaux*/
+
+#res_sociaux {
+	position: absolute;
+	left: 30%;
+	background-color: #fb9d51;
+	z-index: 2;
+	top: -60px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	display: inline-block;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#fb, #via, #you, #link, #twit, #rss {
+	margin: 20px 10px 30px 10px;
+	vertical-align: middle;
+	max-height: 40px;
+}
+
+#link {
+	margin-left: 120px;
+}
+
+#twit {
+	margin-left: 20px;
+}
+
+#you {
+	margin-right: 20px;
+}
+
+#res_sociaux>img,#res_sociaux>img:hover {
+	position: absolute;
+	top: -70%;
+	z-index: 1;
+
+}
+
+/*Plan site*/
+
+#plan_site {
+	width: 49%;
+	padding-top: 5%;
+	height: 300px;
+}
+
+#plan_site a {
+	color: white;
+	font-size: 1.4em;
+	padding-top: 10px;
+	padding-right: 15px;
+
+}
+
+#plan_site ul {
+	text-align: right;
+	border-right-width: 1px; 
+	border-right-color: white;
+	border-right-style: solid;
+}
+
+/*Mentions*/
+
+#mentions {
+	position: absolute;
+	top: 130px;
+	left: 47%;
+}
+
+#mentions a {
+	color:  #fb9d51;
+	font-size: 1.2em;
+	padding-top: 6px;
+}
