@@ -63,7 +63,7 @@ a {
 /*Plan site*/
 
 #plan_site {
-	width: 49%;
+	max-width: 49%;
 	padding-top: 5%;
 	height: 300px;
 }
