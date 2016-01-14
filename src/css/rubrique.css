@@ -101,6 +101,18 @@ html, body {
 	position: relative;
 }
 
+.container > div {
+	height: 350px;
+	width: 49%;
+	background-color: #e9d8cc;
+}
+
+.container > div:nth-child(3n) {
+	height: 350px;
+	width: 100%;
+	background-color: #ffdac1;
+}
+
 .container > div > div {
 	margin: 0;
 	background-color: rgba(0, 0, 0, 0.4);
