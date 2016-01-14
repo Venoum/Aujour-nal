@@ -3,11 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="../css/header.css">
 	<title>Header</title>
 	<div id="container">
 		<form action="#">
-			<img src="img/header/NSP_plume.jpg" alt="Logo du site web" class="logo">
+			<img src="../img/header/NSP_plume.jpg" alt="Logo du site web" class="logo">
 			<div id="connexion">
 				<input type="text" placeholder="Votre pseudo" id="holder_bold">
 				<input type="password" placeholder="Votre mot de passe" id="holder_bold">
