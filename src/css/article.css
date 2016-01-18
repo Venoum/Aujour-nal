@@ -6,4 +6,22 @@ html, body {
 	font-weight: lighter;
 }
 
-/* ##  PRESENTATION  ## */
+/* Background de l'article (photo) */
+.blob {
+	background: -webkit-linear-gradient(left, rgba(0,0,0,1), rgba(0,0,0,0)); /* Pour Safari 5.1 -> 6.0 */
+    background: -o-linear-gradient(right, rgba(0,0,0,1), rgba(0,0,0,0)); /* Pour Opera 11.1 -> 12.0 */
+    background: -moz-linear-gradient(right, rgba(0,0,0,1), rgba(0,0,0,0)); /* Pour Firefox 3.6 -> 15 */
+    background: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0)); /* Syntaxe standart */
+}
+#background {
+	position: relative;
+	background-image: url("../img/article/lights-1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+#background h1 {
+
+} 
+
