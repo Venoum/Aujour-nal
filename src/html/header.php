@@ -11,7 +11,7 @@
 			<div id="connexion">
 				<input type="text" placeholder="Votre pseudo" id="holder_bold">
 				<input type="password" placeholder="Votre mot de passe" id="holder_bold">
-				<img src="img/header/loupe.png" alt="" class="toolbar">
+				<img src="../img/header/loupe.png" alt="" class="toolbar">
 			</div>
 		</form>
 	</div>
