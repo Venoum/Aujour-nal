@@ -17,7 +17,7 @@
 		<h1>Lorem ipsum dolor sit amet,  sit  amet consectetur.</h1>
 		<div id="corpus">	<!--C'est du css la mais on voit avec symphony pour les données ? (script JS sur le src de img?)-->
 			<p>Ludovic BOUVINET</p>
-			<img id="photo_profil" src="img/article/ludo.png" alt="Photo de profil">
+			<img id="photo_profil" src="../img/article/ludo.png" alt="Photo de profil">
 			<p class="grade">Rédacteur en chef</p> 
 		
 			<p id="chapeau">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -29,7 +29,7 @@
 				<span id="emplacementA">« Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam »</span>
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste 
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ex ea commodo consequat. Duis aute irure in dolor in adipisci.
-				<img id="emplacementB" src="img/article/times-square.jpg" alt="">
+				<img id="emplacementB" src="../img/article/times-square.jpg" alt="">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaeratLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste 
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 			</p>
