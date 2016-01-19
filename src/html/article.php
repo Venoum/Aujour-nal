@@ -36,13 +36,62 @@
 		</div>	
 	</section>
 </div>
-<section id="note_commentaire">
-		
-</section>
-<section id="flux_notes_commentaires">
-		
-</section>
-
+<div id="intro_commentaire">
+		<div class="Ntxt">Notez cet article</div>
+		<div class="Etxt">&</div>
+		<div class="Atxt">Donnez nous votre avis</div>
+		<img id="arrow" src="../img/article/arrow.png" alt="">
+		<img id="star" src="../img/article/star_true.png" alt="">
+		<img id="star" src="../img/article/star_true.png" alt="">
+		<img id="star" src="../img/article/star_false.png" alt="">
+		<img id="star" src="../img/article/star_false.png" alt="">
+		<img id="star" src="../img/article/star_false.png" alt="">
+		<div id="intro_compte"> 
+			<img id="photo_profil_com" src="../img/article/ludo.png" alt="Photo de profil">
+			<div class="Vtxt">Vous</div>
+		</div>
+		<textarea name="commentaire" cols="50" rows="5" placeholder="Ecrire un commentaire"></textarea>
+</div>
+<div id="background_2">
+	<section id="note_commentaire">
+		<img id="photo_profil_note" src="../img/article/ludo.png" alt="Photo de profil">
+		<div id="name">Ludovic BOUVINET</div>
+		<img id="star2" src="../img/article/star_true.png" alt="">
+		<img id="star2" src="../img/article/star_true.png" alt="">
+		<img id="star2" src="../img/article/star_false2.png" alt="">
+		<img id="star2" src="../img/article/star_false2.png" alt="">
+		<img id="star2" src="../img/article/star_false2.png" alt="">
+		<br>
+		<img id="photo_profil_note" src="../img/article/ludo.png" alt="Photo de profil">
+		<div id="name">Ludovic BOUVINET</div>
+		<img id="star2" src="../img/article/star_true.png" alt="">
+		<img id="star2" src="../img/article/star_true.png" alt="">
+		<img id="star2" src="../img/article/star_false2.png" alt="">
+		<img id="star2" src="../img/article/star_false2.png" alt="">
+		<img id="star2" src="../img/article/star_false2.png" alt="">
+		<br>
+		<img id="photo_profil_note" src="../img/article/ludo.png" alt="Photo de profil">
+		<div id="name">Ludovic BOUVINET</div>
+		<img id="star2" src="../img/article/star_true.png" alt="">
+		<img id="star2" src="../img/article/star_true.png" alt="">
+		<img id="star2" src="../img/article/star_false2.png" alt="">
+		<img id="star2" src="../img/article/star_false2.png" alt="">
+		<img id="star2" src="../img/article/star_false2.png" alt="">
+		<br>
+		<img id="photo_profil_note" src="../img/article/ludo.png" alt="Photo de profil">
+		<div id="name">Ludovic BOUVINET</div>
+		<img id="star2" src="../img/article/star_true.png" alt="">
+		<img id="star2" src="../img/article/star_true.png" alt="">
+		<img id="star2" src="../img/article/star_false2.png" alt="">
+		<img id="star2" src="../img/article/star_false2.png" alt="">
+		<img id="star2" src="../img/article/star_false2.png" alt="">
+		<br>
+		<a href="#">Afficher toutes les notes</a>
+	</section>
+	<section id="flux_notes_commentaires">
+			
+	</section>
+</div>
 
 <footer>
 	<?php
