@@ -4,12 +4,14 @@
 	<meta charset="UTF-8">
 	<title>Article</title>
 	<link rel="stylesheet" href="../css/article.css">
-	<link rel="stylesheet" href="../css/article_mod1.css">
 </head>
 <body>
 <header>
 	<?php
-		include("header.php");
+		$header_nav = '1';
+		include("header_inscription.php");
+		/* Peut etre faire un script ou Symfony :) pour le style de la page "actuelle" */
+
 	?>
 </header>
 <div id="background">
@@ -63,7 +65,7 @@
 		<img id="star2" src="../img/article/star_false2.png" alt="">
 		<br>
 		<img id="photo_profil_note" src="../img/article/ludo.png" alt="Photo de profil">
-		<div id="name">Ludovic BOUVINET</div>
+		<div id="name">Enzo BOUVINET</div>
 		<img id="star2" src="../img/article/star_true.png" alt="">
 		<img id="star2" src="../img/article/star_true.png" alt="">
 		<img id="star2" src="../img/article/star_false2.png" alt="">
@@ -71,7 +73,7 @@
 		<img id="star2" src="../img/article/star_false2.png" alt="">
 		<br>
 		<img id="photo_profil_note" src="../img/article/ludo.png" alt="Photo de profil">
-		<div id="name">Ludovic BOUVINET</div>
+		<div id="name">Yannick BOUVINET</div>
 		<img id="star2" src="../img/article/star_true.png" alt="">
 		<img id="star2" src="../img/article/star_true.png" alt="">
 		<img id="star2" src="../img/article/star_false2.png" alt="">
@@ -79,7 +81,7 @@
 		<img id="star2" src="../img/article/star_false2.png" alt="">
 		<br>
 		<img id="photo_profil_note" src="../img/article/ludo.png" alt="Photo de profil">
-		<div id="name">Ludovic BOUVINET</div>
+		<div id="name">Eric BOUVINET</div>
 		<img id="star2" src="../img/article/star_true.png" alt="">
 		<img id="star2" src="../img/article/star_true.png" alt="">
 		<img id="star2" src="../img/article/star_false2.png" alt="">
@@ -89,7 +91,27 @@
 		<a href="#">Afficher toutes les notes</a>
 	</section>
 	<section id="flux_notes_commentaires">
-			
+		<!--
+		<img id="photo_profil_flux" src="../img/article/ludo.png" alt="Photo de profil">
+		<div id="info_flux">11/10/15 <br> 17h30</div>
+		<div id="msg1">
+			<h1>Ludovic Bouvinet a écrit</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in </p>
+		</div>
+		<img id="photo_profil_flux" src="../img/article/ludo.png" alt="Photo de profil">
+		<div id="info_flux">11/10/15 <br> 11h30</div>
+		<div id="msg1">
+			<h1>Enzo Bouvinet a écrit</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in </p>
+		</div>
+		<img id="photo_profil_flux" src="../img/article/ludo.png" alt="Photo de profil">
+		<div id="info_flux">09/10/15 <br> 21h32</div>
+		<div id="msg1">
+			<h1>Ludovic Bouvinet a écrit</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in </p>
+		</div>
+		<a href="#">Afficher tout les commentaires</a>
+		-->
 	</section>
 </div>
 
